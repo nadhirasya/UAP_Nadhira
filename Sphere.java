@@ -34,7 +34,7 @@ public class Sphere extends CetakanDonat implements Hitung, Konversi, Cetak {
 
     @Override
     public int hitungBiayaKirim() {
-        return (int) Math.ceil(konversiKg()) * 5000;
+        return (int) Math.ceil(konversiKg()) * 2000;
     }
 
     @Override
